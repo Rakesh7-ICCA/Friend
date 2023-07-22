@@ -2,8 +2,9 @@
 {
     text-align: center;
     animation: typing 2s infinite alternate;
+    width: 100%;
     overflow: hidden;
-    
+
 }
 
 @keyframes typing {
