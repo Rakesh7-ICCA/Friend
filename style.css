@@ -1,19 +1,30 @@
-.nameOut
+.name
 {
-    text-align: center;
-    animation: typing 2s infinite alternate;
-    width: 100%;
+    border-right: solid 4px;
+    width: max-content;
+    animation: typing 1s steps(5) forwards infinite alternate;
     overflow: hidden;
-
 }
 
+header{
+    justify-content: center;
+    border-bottom: solid 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ .content{
+    padding-top: 100px;
+    overflow: hidden;
+}
 @keyframes typing {
-    from
+    0%
     {
-        width: 0%;
+        width: 0;
     }
-    to{
-        width: 100%;
+    100%
+    {
+        width: 7em;
     }
     
 }
