@@ -1,22 +1,48 @@
 .name
 {
+    top: 0px;
     border-right: solid 4px;
     width: max-content;
-    animation: typing 1s steps(5) forwards infinite alternate;
+    animation: typing 1s steps(10) forwards infinite alternate;
+    overflow: hidden;
+}
+.nav{
+   
+    margin-top: 80px;
+    position: fixed;
+    height: 100%;
+    width: 60px;
+    padding-right: 10px;
+    border-right: solid 4px;
+}
+.icon
+{
+    top: 0;
+    border:solid 3px;
+    display:block;
+    MARGIN-bottom: 50PX;
+    padding: 35PX 5PX;
+}
+.content{
+    padding-top: 100px;
+    margin-left: 70px;
+    padding-left: 10px;
+    width: 100%;
     overflow: hidden;
 }
 
+.icon:hover{
+    background-color: aquamarine;
+}
 header{
     justify-content: center;
-    border-bottom: solid 3px;
+    border-bottom: solid 4px;
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: aqua;    
 }
- .content{
-    padding-top: 100px;
-    overflow: hidden;
-}
+
 @keyframes typing {
     0%
     {
